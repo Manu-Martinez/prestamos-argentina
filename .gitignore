@@ -2,6 +2,26 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+clients.db
+.ipynb_checkpoints/
+*.ipynb
+.pytest_cache/
+.vscode/
+.idea/
+*.tmp
+
 
 # C extensions
 *.so
