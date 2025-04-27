@@ -43,3 +43,6 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos según 
 ├── explore_data.py               # EDA
 ├── run_sql.py                    # Ejecución de consultas SQL
 ├── queries.sql                   # Consultas SQL (incluye detección de fraude)
+├── income_distribution_april2025.png  # Gráfico de ingresos
+├── loan_eligibility_by_employment_april2025.png  # Gráfico de eligibilidad
+├── correlation_matrix_april2025.png  # Correlación de datos de los clientes
