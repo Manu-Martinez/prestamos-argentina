@@ -43,7 +43,3 @@ Determine which fictitious client profiles are eligible for loans based on incom
 ├── explore_data.py               # EDA
 ├── run_sql.py                    # SQL queries execution
 ├── queries.sql                   # SQL queries
-├── income_distribution_april2025.png  # Income graph
-├── loan_eligibility_by_employment_april2025.png  # Eligibility graph
-├── correlation_matrix_april2025.png  # Correlation graph
-
