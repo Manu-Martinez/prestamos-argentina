@@ -37,6 +37,6 @@ df['Apto_Prestamo_Elevado'] = ((df['Ingresos_Mensuales'] > 557500) &
                                (df['Ratio_Deuda_Ingresos'] < 0.35) &
                                (df['Edad'].between(25, 55))).astype(int)
 
-df.to_csv('clientes_ficticios_abril2025.csv', index=False)
+df.to_csv('clientes_ficticios_abril2025.csv', index=False, encoding='utf-8')
 print(df.head())
 print(df.describe())
