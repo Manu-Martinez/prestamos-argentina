@@ -11,12 +11,18 @@ sns.histplot(df['Ingresos_Mensuales'], bins=50)
 plt.title('Distribución de Ingresos Mensuales (Promedio Feb-Abr 2025, Argentina)')
 plt.xlabel('Ingresos Mensuales ($ pesos argentinos)')
 plt.ylabel('Cantidad de Clientes')
-plt.savefig('income_distribution_feb_apr2025.png')  # Nombre ajustado
+plt.savefig('income_distribution_feb_apr2025.png')
 plt.show()
+
+# Paleta de colores personalizada para todos los gráficos
+custom_palette = {'Apto': 'tab:blue', 'No Apto': 'tab:orange'}
 
 # Gráfico de elegibilidad para préstamo pequeño
 plt.figure(figsize=(10, 6))
-sns.countplot(x='Tipo_Empleo', hue=df['Apto_Prestamo_Pequeño'].map({1: 'Apto', 0: 'No Apto'}), data=df)
+sns.countplot(x='Tipo_Empleo', 
+              hue=df['Apto_Prestamo_Pequeño'].map({1: 'Apto', 0: 'No Apto'}), 
+              data=df,
+              palette=custom_palette)
 plt.title('Aptitud para Préstamo Pequeño ($30,000-$100,000) por Tipo de Empleo')
 plt.xlabel('Tipo de Empleo')
 plt.ylabel('Cantidad de Clientes')
@@ -26,7 +32,10 @@ plt.show()
 
 # Gráfico de elegibilidad para préstamo mediano
 plt.figure(figsize=(10, 6))
-sns.countplot(x='Tipo_Empleo', hue=df['Apto_Prestamo_Mediano'].map({1: 'Apto', 0: 'No Apto'}), data=df)
+sns.countplot(x='Tipo_Empleo', 
+              hue=df['Apto_Prestamo_Mediano'].map({1: 'Apto', 0: 'No Apto'}), 
+              data=df,
+              palette=custom_palette)
 plt.title('Aptitud para Préstamo Mediano ($100,001-$500,000) por Tipo de Empleo')
 plt.xlabel('Tipo de Empleo')
 plt.ylabel('Cantidad de Clientes')
@@ -36,7 +45,10 @@ plt.show()
 
 # Gráfico de elegibilidad para préstamo elevado
 plt.figure(figsize=(10, 6))
-sns.countplot(x='Tipo_Empleo', hue=df['Apto_Prestamo_Elevado'].map({1: 'Apto', 0: 'No Apto'}), data=df)
+sns.countplot(x='Tipo_Empleo', 
+              hue=df['Apto_Prestamo_Elevado'].map({1: 'Apto', 0: 'No Apto'}), 
+              data=df,
+              palette=custom_palette)
 plt.title('Aptitud para Préstamo Elevado ($500,001-$2,000,000) por Tipo de Empleo')
 plt.xlabel('Tipo de Empleo')
 plt.ylabel('Cantidad de Clientes')
