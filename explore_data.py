@@ -83,3 +83,8 @@ plt.yticks(rotation=0)
 plt.tight_layout()
 plt.savefig('correlation_matrix_feb_apr2025.png', bbox_inches='tight')
 plt.show()
+
+# Exportar la matriz de correlación a CSV
+numeric_df = df.select_dtypes(include=['int32', 'int64', 'float64'])
+correlation_matrix = numeric_df.corr()
+correlation_matrix.to_csv('correlation_matrix.csv')
