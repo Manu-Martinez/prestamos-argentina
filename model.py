@@ -31,6 +31,9 @@ X_scaled = scaler.fit_transform(X)
 # Definir las columnas objetivo
 targets = ['Apto_Prestamo_Pequeño', 'Apto_Prestamo_Mediano', 'Apto_Prestamo_Elevado']
 
+# Lista para almacenar los datos de importancia de características
+feature_importance_data = []
+
 # Diccionario para almacenar resultados
 results = {}
 
@@ -107,6 +110,14 @@ for target in targets:
         'Importance': 'Importancia'
     })
     
+	# Añadir los datos de importancia a la lista con el tipo de préstamo
+    for _, row in feature_importance.iterrows():
+        feature_importance_data.append({
+            'Tipo_Prestamo': target_clean.split(' ')[-1],  # Extraer "Pequeño", "Mediano", "Elevado"
+            'Caracteristica': row['Característica'],
+            'Importancia': row['Importancia']
+        })
+    
     # Graficar la importancia de las características con etiquetas en español
     plt.figure(figsize=(10, 8))
     sns.barplot(x='Importancia', y='Característica', data=feature_importance)
@@ -122,3 +133,8 @@ for target in targets:
 print("\nResumen de métricas:")
 for target, metrics in results.items():
     print(f"{target}: Precisión = {metrics['accuracy']:.2f}, F1-Score = {metrics['f1_score']:.2f}")
+    
+# Exportar los datos de importancia a un CSV
+feature_importance_df = pd.DataFrame(feature_importance_data)
+feature_importance_df.to_csv('feature_importance.csv', index=False, encoding='utf-8')
+print("\nDatos de importancia exportados a 'feature_importance.csv'")

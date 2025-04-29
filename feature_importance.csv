@@ -1,0 +1,34 @@
+Tipo_Prestamo,Caracteristica,Importancia
+Pequeño,Puntuación Crediticia,0.830651691858796
+Pequeño,Ingresos Mensuales,0.09352007850221045
+Pequeño,Ratio Deuda Ingresos,0.016447593644217596
+Pequeño,Deuda Actual,0.015318520044193193
+Pequeño,Edad,0.014942526285411083
+Pequeño,Monto Prestamo Solicitado,0.013534083136535544
+Pequeño,Años Empleo,0.010295382098283472
+Pequeño,Empleo Autónomo,0.0019538534461202473
+Pequeño,Empleo Formal,0.0016063263930985055
+Pequeño,Empleo Informal,0.0010648116113111423
+Pequeño,Empleo Desempleado,0.0006651329798228587
+Mediano,Puntuación Crediticia,0.5051079759041166
+Mediano,Ratio Deuda Ingresos,0.19822603404681818
+Mediano,Ingresos Mensuales,0.1852806286592854
+Mediano,Deuda Actual,0.02712396407968961
+Mediano,Monto Prestamo Solicitado,0.025867443061068703
+Mediano,Años Empleo,0.02260230475197287
+Mediano,Edad,0.021475800264515964
+Mediano,Empleo Formal,0.007237355122676047
+Mediano,Empleo Autónomo,0.002741807233720161
+Mediano,Empleo Informal,0.002631121022119766
+Mediano,Empleo Desempleado,0.00170556585401665
+Elevado,Ingresos Mensuales,0.3481545313663665
+Elevado,Puntuación Crediticia,0.30245641412971574
+Elevado,Ratio Deuda Ingresos,0.14848365072550457
+Elevado,Años Empleo,0.04430639788917758
+Elevado,Monto Prestamo Solicitado,0.044260002208860935
+Elevado,Edad,0.04378939558080349
+Elevado,Deuda Actual,0.03489710714059447
+Elevado,Empleo Formal,0.015516078878635882
+Elevado,Empleo Informal,0.011196241778647935
+Elevado,Empleo Autónomo,0.005815627943248308
+Elevado,Empleo Desempleado,0.001124552358444604
