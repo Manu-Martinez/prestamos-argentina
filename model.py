@@ -89,6 +89,9 @@ for target in targets:
         'Importance': rf_model.feature_importances_
     }).sort_values(by='Importance', ascending=False)
     
+	# Redondear la columna 'Importance' a 2 decimales
+    feature_importance['Importance'] = feature_importance['Importance'].round(2)
+    
 	# Abreviar etiquetas largas, traducir a español y reemplazar guiones bajos por espacios
     feature_importance['Feature'] = feature_importance['Feature'].replace({
         'Ingresos_Mensuales': 'Ingresos Mensuales',
