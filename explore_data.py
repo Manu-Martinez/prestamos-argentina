@@ -56,10 +56,27 @@ plt.legend(title='Elegibilidad')
 plt.savefig('loan_eligibility_large_by_employment_april2025.png')
 plt.show()
 
-# Matriz de correlación
-numeric_df = df.select_dtypes(include=['int32', 'int64', 'float64'])
 
-# Renombrar las columnas de numeric_df para eliminar guiones bajos
+# Matriz de correlación
+# Definir explícitamente el orden de las columnas numéricas
+numeric_cols = [
+    'ID_Cliente',
+    'Edad',
+    'Ingresos_Mensuales',
+    'Años_Empleo',
+    'Puntuacion_Crediticia',
+    'Deuda_Actual',
+    'Monto_Prestamo_Solicitado',
+    'Ratio_Deuda_Ingresos',
+    'Apto_Prestamo_Pequeño',
+    'Apto_Prestamo_Mediano',
+    'Apto_Prestamo_Elevado'
+]
+
+# Seleccionar las columnas numéricas en el orden definido
+numeric_df = df[numeric_cols]
+
+# Renombrar las columnas para eliminar guiones bajos (para el mapa de calor y el CSV)
 numeric_df = numeric_df.rename(columns={
     'ID_Cliente': 'ID Cliente',
     'Edad': 'Edad',
@@ -67,12 +84,15 @@ numeric_df = numeric_df.rename(columns={
     'Años_Empleo': 'Años Empleo',
     'Puntuacion_Crediticia': 'Puntuación Crediticia',
     'Deuda_Actual': 'Deuda Actual',
-    'Monto_Prestamo_Solicitado': 'Monto Prestamo Solicitado',
+    'Monto_Prestamo_Solicitado': 'Monto Préstamo Solicitado',
     'Ratio_Deuda_Ingresos': 'Ratio Deuda Ingresos',
-    'Apto_Prestamo_Pequeño': 'Apto Prestamo Pequeño',
-    'Apto_Prestamo_Mediano': 'Apto Prestamo Mediano',
-    'Apto_Prestamo_Elevado': 'Apto Prestamo Elevado'
+    'Apto_Prestamo_Pequeño': 'Apto Préstamo Pequeño',
+    'Apto_Prestamo_Mediano': 'Apto Préstamo Mediano',
+    'Apto_Prestamo_Elevado': 'Apto Préstamo Elevado'
 })
+
+# Calcular la matriz de correlación
+correlation_matrix = numeric_df.corr()
 
 # Matriz de correlación sin guiones
 plt.figure(figsize=(12, 10))
@@ -85,6 +105,4 @@ plt.savefig('correlation_matrix_feb_apr2025.png', bbox_inches='tight')
 plt.show()
 
 # Exportar la matriz de correlación a CSV
-numeric_df = df.select_dtypes(include=['int32', 'int64', 'float64'])
-correlation_matrix = numeric_df.corr()
-correlation_matrix.to_csv('correlation_matrix.csv')
+correlation_matrix.to_csv('correlation_matrix.csv', encoding='utf-8-sig', index=True)
