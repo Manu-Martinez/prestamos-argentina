@@ -4,7 +4,7 @@ Proyecto freelance para evaluar la elegibilidad de préstamos en el mercado arge
 
 ## Objetivo
 
-Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeño ($30,000-$100,000), mediano ($100,001-$500,000) y elevado ($500,001-$2,230,000) según ingresos mensuales ($165,483-$2,787,500, promedio Feb-Abr 2025), tipo de empleo (~40% informales/desempleados), puntuación crediticia y ratio deuda/ingresos. Los criterios se ajustaron para ser menos exigentes, alineándose con la oferta de préstamos de fintechs argentinas (ej. Ualá, Mercado Pago), optimizando aprobaciones en un contexto donde la mayoría de los clientes tienen ingresos bajos a moderados (~$400,000-$1,200,000).
+Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeño ($30,000-$100,000), mediano ($100,001-$500,000) y elevado ($500,001-$2,230,000) según ingresos mensuales ($165,483-$2,787,500, promedio Feb-Abr 2025), tipo de empleo (40% informales/desempleados), puntuación crediticia y ratio deuda/ingresos. Los criterios se ajustaron para ser menos exigentes, alineándose con la oferta de préstamos de fintechs argentinas (ej. Ualá, Mercado Pago), optimizando aprobaciones en un contexto donde la mayoría de los clientes tienen ingresos bajos a moderados (~$400,000-$1,200,000).
 
 ## Contexto Económico
 
@@ -77,7 +77,7 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
 - **Factores clave para la aprobación**: La puntuación crediticia (importancia 0.51) y los ingresos mensuales (0.19) son los principales determinantes de elegibilidad, según el análisis de importancia de características. La deuda actual y el ratio deuda/ingresos tienen un impacto negativo significativo (correlaciones de -0.51 y -0.23 con la aprobación), mientras que el tipo de empleo tiene una influencia mínima (importancia <0.01).
 - **Elegibilidad por tipo de préstamo y empleo**:
   - **Préstamo Pequeño ($30,000-$100,000)**: ~20-30% de clientes son aptos, con los formales liderando (~71% aptos), seguidos por informales (~57%), autónomos (~50%) y desempleados (~50%). Los criterios flexibles (ingresos >$300,000, puntuación crediticia >500) hacen que este rango sea accesible para una amplia gama de clientes.
-  - **Préstamo Mediano ($100,001-$500,000)**: La aprobación cae (~15-20% aptos), con los formales aún liderando (~71%), pero los informales (~34%), autónomos (~44%) y desempleados (~30%) enfrentan más restricciones debido a ingresos promedio más bajos (~$450,000 para informales).
+  - **Préstamo Mediano ($100,001-$500,000)**: La aprobación cae (~15-20% aptos), con los formales aún liderando (~71%), pero los informales (~34%), autónomos (~44%) y desempleados (30%) enfrentan más restricciones debido a ingresos promedio más bajos (~$450,000 para informales).
   - **Préstamo Elevado ($500,001-$2,230,000)**: Solo ~10-15% son aptos, con los formales dominando (~63%), mientras que los informales (~14%), autónomos (~33%) y desempleados (~20%) tienen tasas muy bajas debido a los criterios estrictos (ingresos >$1,000,000, puntuación crediticia >700).
 - **Recomendaciones para fintechs**:
   - Priorizar préstamos pequeños para informales y desempleados (~57% y ~50% aptos), ya que son más accesibles y tienen alta demanda en este segmento.
