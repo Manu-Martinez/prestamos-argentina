@@ -67,10 +67,10 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
   - Consultas SQL: [run_sql.py](run_sql.py), [queries.sql](queries.sql).
 
 ### Visualización
-- **Dashboards en Tableau Public**:
-  - Dashboard 1: "Análisis de Aptitud para Préstamos - Resumen (Feb-Abr 2025)" – Incluye distribución de ingresos, importancia de características y matriz de correlación. [Ver en Tableau Public](enlace-a-dashboard-1).  
-  - Dashboard 2: "Análisis de Aptitud para Préstamos - Detalle por Rango (Feb-Abr 2025)" – Incluye análisis de elegibilidad por tipo de empleo para préstamos pequeño, mediano y elevado. [Ver en Tableau Public](enlace-a-dashboard-2).  
-- Nota: Los enlaces a Tableau Public serán añadidos una vez publicados los dashboards.
+- **Dashboards en Tableau Desktop**:
+  - Dashboard 1: "Análisis de Aptitud para Préstamos - Resumen (Feb-Abr 2025)" – Incluye distribución de ingresos, importancia de características y matriz de correlación. Descarga el archivo de Tableau para explorar: [Resumen_Aptitud_Prestamos.twbx](Summary_Loan_Eligibility.twbx).
+  - Dashboard 2: "Análisis de Aptitud para Préstamos - Detalle por Rango (Feb-Abr 2025)" – Incluye análisis de elegibilidad por tipo de empleo para préstamos pequeño, mediano y elevado. Descarga el archivo de Tableau para explorar: [Detalles_Aptitud_Prestamos.twbx](Details_Loan_Eligibility.twbx).
+- Nota: Los dashboards pueden visualizarse abriendo los archivos `.twbx` en Tableau Desktop.
 
 ## Conclusiones
 - **Distribución de ingresos y contexto económico**: La mayoría de los clientes tienen ingresos mensuales entre $165,483 y $1,200,000 (promedio Feb-Abr 2025), con una minoría alcanzando hasta $2,787,500. La inflación de febrero a abril (2.5%-3.7%) y el aumento de la canasta básica (~$1,127,000) limitan la capacidad de endeudamiento, pero los criterios menos exigentes permiten mayor acceso a préstamos pequeños y medianos.
