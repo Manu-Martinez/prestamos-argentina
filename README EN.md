@@ -65,6 +65,12 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
   - Exploration: [explore_data.py](explore_data.py).  
   - SQL queries: [run_sql.py](run_sql.py), [queries.sql](queries.sql).
 
+### Dashboards
+-Access the Loan Eligibility Analysis dashboards:
+
+- [![Loan Eligibility Analysis - Summary](https://img.shields.io/badge/Tasas_de_Aprobación-Tableau-blue?style=for-the-badge)](https://public.tableau.com/app/profile/manuel.mart.nez3937/viz/AnlisisdeAptituddePrstamosenArgentina2025/Dashboard1)
+- [![Loan Eligibility Analysis - Details by Range](https://img.shields.io/badge/Ingresos_por_Segmento-Tableau-blue?style=for-the-badge)](https://public.tableau.com/app/profile/manuel.mart.nez3937/viz/AnlisisdeAptituddePrstamosenArgentina2025/Dashboard2)
+
 ### Visualization
 - **Tableau Dashboards**:
   - Dashboard 1: "Loan Eligibility Analysis - Summary (Feb-Apr 2025)" – Includes income distribution, feature importance, and correlation matrix. Download the Tableau Workbook to explore: [Summary_Loan_Eligibility.twbx](Summary_Loan_Eligibility.twbx).
