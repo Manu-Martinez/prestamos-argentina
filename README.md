@@ -67,6 +67,10 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
   - Consultas SQL: [run_sql.py](run_sql.py), [queries.sql](queries.sql).
 
 ### Visualización
+- **Accede a los dashboards del análisis de préstamos en Argentina:
+- [![Tasas de Aprobación](https://img.shields.io/badge/Tasas_de_Aprobación-Tableau-blue?style=for-the-badge)](https://public.tableau.com/app/profile/manuel.mart.nez3937/viz/AnlisisdeAptituddePrstamosenArgentina2025/Dashboard1)
+- [![Ingresos por Segmento](https://img.shields.io/badge/Ingresos_por_Segmento-Tableau-blue?style=for-the-badge)](https://public.tableau.com/app/profile/manuel.mart.nez3937/viz/DetallessobreAptitudparaPrstamosenArgentina2025/Dashboard2)
+
 - **Dashboards en Tableau Desktop**:
   - Dashboard 1: "Análisis de Aptitud para Préstamos - Resumen (Feb-Abr 2025)" – Incluye distribución de ingresos, importancia de características y matriz de correlación. Descarga el archivo de Tableau para explorar: [Resumen_Aptitud_Prestamos.twbx](Summary_Loan_Eligibility.twbx).
   - Dashboard 2: "Análisis de Aptitud para Préstamos - Detalle por Rango (Feb-Abr 2025)" – Incluye análisis de elegibilidad por tipo de empleo para préstamos pequeño, mediano y elevado. Descarga el archivo de Tableau para explorar: [Detalles_Aptitud_Prestamos.twbx](Details_Loan_Eligibility.twbx).
