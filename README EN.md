@@ -77,7 +77,7 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
 - **Key Factors for Approval**: Credit score (importance 0.51) and monthly income (0.19) are the primary determinants of eligibility, according to feature importance analysis. Current debt and debt-to-income ratio have a significant negative impact (correlations of -0.51 and -0.23 with approval), while employment type has minimal influence (importance <0.01).
 - **Eligibility by Loan Type and Employment**:
   - **Small Loan ($30,000-$100,000)**: ~20-30% of clients are eligible, with formal clients leading (~71% eligible), followed by informal (~57%), self-employed (~50%), and unemployed (~50%). Relaxed criteria (income >$300,000, credit score >500) make this range accessible to a wide range of clients.
-  - **Medium Loan ($100,001-$500,000)**: Approval drops (~15-20% eligible), with formal clients still leading (~71%), but informal (~34%), self-employed (~44%), and unemployed (30%) face more restrictions due to lower average incomes (~$450,000 for informal).
+  - **Medium Loan ($100,001-$500,000)**: Approval drops (~15-20% eligible), with formal clients still leading (~71%), but informal (~34%), self-employed (~44%), and unemployed (30%) face more restrictions due to lower average incomes ($450,000 for informal).
   - **Large Loan ($500,001-$2,230,000)**: Only ~10-15% are eligible, with formal clients dominating (~63%), while informal (~14%), self-employed (~33%), and unemployed (~20%) have very low rates due to strict criteria (income >$1,000,000, credit score >700).
 - **Recommendations for Fintechs**:
   - Prioritize small loans for informal and unemployed clients (~57% and ~50% eligible), as they are more accessible and in high demand in this segment.
