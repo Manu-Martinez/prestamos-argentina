@@ -48,7 +48,7 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
 
 
 
-  ![income_distribution_april2025.png](images/income_distribution_feb_apr2025.png)
+  ![income_distribution_feb_apr2025.png](images/income_distribution_feb_apr2025.png)
 
 
    
