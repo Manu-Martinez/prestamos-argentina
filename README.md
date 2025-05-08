@@ -69,10 +69,15 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
 - **Correlaciones**:
   - Puntuación crediticia e ingresos mensuales tienen correlaciones positivas fuertes con la elegibilidad (0.79 y 0.84 para préstamo pequeño).
   - Deuda actual y ratio deuda/ingresos afectan negativamente la aprobación (-0.51 y -0.23).
-  - Edad y tipo de empleo tienen correlaciones débiles (~0), indicando menor relevancia ([correlation_matrix_april2025.png](images/correlation_matrix_april2025.png)).
+  - Edad y tipo de empleo tienen correlaciones débiles (~0), indicando menor relevancia.
+    
+    ![correlation_matrix_feb_apr2025.png](images/correlation_matrix_feb_apr2025.png)
+
+    
 - **Importancia de características**:
   - Puntuación crediticia (0.51) e ingresos mensuales (0.19) son los factores más relevantes para la aprobación.
   - Tipo de empleo tiene un impacto mínimo (<0.01) ([feature_importance.csv](feature_importance.csv)).
+    
 - **SQL**:
   - Ingresos promedio: Formal ~$1,800,000, Informal ~$450,000 (promedio Feb-Abr 2025).
   - Elegibilidad por edad: ~30% en 25-55 años.
