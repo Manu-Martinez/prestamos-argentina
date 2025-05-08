@@ -44,16 +44,32 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
   - **Elevado ($500,001-$2,230,000)**: Puntuación crediticia >700, ratio deuda/ingresos <0.3, ingresos >$1,000,000.
 
 ### Exploración
-- **Distribución de ingresos**: La mayoría de los clientes tienen ingresos entre $165,483 y $1,200,000, con un pico en $400,000-$600,000, reflejando un mercado con alta proporción de ingresos bajos a moderados ([income_distribution_april2025.png](income_distribution_april2025.png)).
+- **Distribución de ingresos**: La mayoría de los clientes tienen ingresos entre $165,483 y $1,200,000, con un pico en $400,000-$600,000, reflejando un mercado con alta proporción de ingresos bajos a moderados.
+
+
+
+  ![income_distribution_april2025.png](images/income_distribution_feb_apr2025.png)
+
+
+   
+
+
+
 - **Elegibilidad por tipo de empleo**:
   - **Préstamo Pequeño ($30,000-$100,000)**: Formales (~71% aptos), informales (~57%), autónomos (~50%), desempleados (~50%).
+    ![loan_eligibility_small_by_employment_april2025.png](images/loan_eligibility_small_by_employment_april2025.png)
+
   - **Préstamo Mediano ($100,001-$500,000)**: Formales (~71%), autónomos (~44%), informales (~34%), desempleados (~30%).
+    ![loan_eligibility_medium_by_employment_april2025.png](images/loan_eligibility_medium_by_employment_april2025.png)
+    
   - **Préstamo Elevado ($500,001-$2,230,000)**: Formales (~63%), autónomos (~33%), desempleados (~20%), informales (~14%).
-  - Visualización: ([loan_eligibility_by_employment_april2025.png](loan_eligibility_by_employment_april2025.png)).
+    ![loan_eligibility_large_by_employment_april2025.png](images/loan_eligibility_large_by_employment_april2025.png)
+
+    
 - **Correlaciones**:
   - Puntuación crediticia e ingresos mensuales tienen correlaciones positivas fuertes con la elegibilidad (0.79 y 0.84 para préstamo pequeño).
   - Deuda actual y ratio deuda/ingresos afectan negativamente la aprobación (-0.51 y -0.23).
-  - Edad y tipo de empleo tienen correlaciones débiles (~0), indicando menor relevancia ([correlation_matrix_april2025.png](correlation_matrix_april2025.png)).
+  - Edad y tipo de empleo tienen correlaciones débiles (~0), indicando menor relevancia ([correlation_matrix_april2025.png](images/correlation_matrix_april2025.png)).
 - **Importancia de características**:
   - Puntuación crediticia (0.51) e ingresos mensuales (0.19) son los factores más relevantes para la aprobación.
   - Tipo de empleo tiene un impacto mínimo (<0.01) ([feature_importance.csv](feature_importance.csv)).
