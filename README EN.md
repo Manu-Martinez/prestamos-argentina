@@ -54,12 +54,13 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
   - **Medium Loan ($100,001-$500,000)**: Formal (~71%), self-employed (~44%), informal (~34%), unemployed (~30%).
     ![loan_eligibility_medium_by_employment_april2025](images/loan_eligibility_medium_by_employment_april2025.png)
     
-  - **Large Loan ($500,001-$2,230,000)**: Formal (~63%), self-employed (~33%), unemployed (~20%), informal (~14%). !([loan_eligibility_large_by_employment_april2025](images/loan_eligibility_large_by_employment_april2025.png)
+  - **Large Loan ($500,001-$2,230,000)**: Formal (~63%), self-employed (~33%), unemployed (~20%), informal (~14%). ![loan_eligibility_large_by_employment_april2025](images/loan_eligibility_large_by_employment_april2025.png)
     
 - **Correlations**:
   - Credit score and monthly income have strong positive correlations with eligibility (0.79 and 0.84 for small loans).
   - Current debt and debt-to-income ratio negatively impact approval (-0.51 and -0.23).
-  - Age and employment type have weak correlations (~0), indicating lesser relevance. ![correlation_matrix_april2025](images/correlation_matrix_april2025.png)
+  - Age and employment type have weak correlations (~0), indicating lesser relevance.
+    ![correlation_matrix_april2025](images/correlation_matrix_april2025.png)
     
 - **Feature Importance**:
   - Credit score (0.51) and monthly income (0.19) are the most relevant factors for approval.
