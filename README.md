@@ -57,13 +57,13 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
 
 - **Elegibilidad por tipo de empleo**:
   - **Préstamo Pequeño ($30,000-$100,000)**: Formales (~71% aptos), informales (~57%), autónomos (~50%), desempleados (~50%).
-    ![loan_eligibility_small_by_employment_april2025.png](images/loan_eligibility_small_by_employment_april2025.png)
+    ![loan_eligibility_small_by_employment_april2025](images/loan_eligibility_small_by_employment_april2025.png)
 
   - **Préstamo Mediano ($100,001-$500,000)**: Formales (~71%), autónomos (~44%), informales (~34%), desempleados (~30%).
-    ![loan_eligibility_medium_by_employment_april2025.png](images/loan_eligibility_medium_by_employment_april2025.png)
+    ![loan_eligibility_medium_by_employment_april2025](images/loan_eligibility_medium_by_employment_april2025.png)
     
   - **Préstamo Elevado ($500,001-$2,230,000)**: Formales (~63%), autónomos (~33%), desempleados (~20%), informales (~14%).
-    ![loan_eligibility_large_by_employment_april2025.png](images/loan_eligibility_large_by_employment_april2025.png)
+    ![loan_eligibility_large_by_employment_april2025](images/loan_eligibility_large_by_employment_april2025.png)
 
     
 - **Correlaciones**:
