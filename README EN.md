@@ -61,7 +61,7 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
   - Current debt and debt-to-income ratio negatively impact approval (-0.51 and -0.23).
   - Age and employment type have weak correlations (~0), indicating lesser relevance.
 
-    ![correlation_matrix_april2025](images/correlation_matrix_april2025.png)
+    ![correlation_matrix_april2025](images/correlation_matrix_feb_apr2025.png)
     
 - **Feature Importance**:
   - Credit score (0.51) and monthly income (0.19) are the most relevant factors for approval.
