@@ -44,15 +44,19 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
   - **Large ($500,001-$2,230,000)**: Credit score >700, debt-to-income ratio <0.3, income >$1,000,000.
 
 ### Exploration
-- **Income Distribution**: Most clients have incomes between $165,483 and $1,200,000, peaking at $400,000-$600,000, reflecting a market with a high proportion of low to moderate incomes ([income_distribution_april2025.png](income_distribution_april2025.png)).
+- **Income Distribution**: Most clients have incomes between $165,483 and $1,200,000, peaking at $400,000-$600,000, reflecting a market with a high proportion of low to moderate incomes ([income_distribution_april2025.png](images/income_distribution_april2025.png)).
 - **Eligibility by Employment Type**:
-  - **Small Loan ($30,000-$100,000)**: Formal (~71% eligible), informal (~57%), self-employed (~50%), unemployed (~50%) ([loan_eligibility_small_by_employment_april2025.png](loan_eligibility_small_by_employment_april2025.png)).
-  - **Medium Loan ($100,001-$500,000)**: Formal (~71%), self-employed (~44%), informal (~34%), unemployed (~30%) ([loan_eligibility_medium_by_employment_april2025.png](loan_eligibility_medium_by_employment_april2025.png)).
-  - **Large Loan ($500,001-$2,230,000)**: Formal (~63%), self-employed (~33%), unemployed (~20%), informal (~14%) ([loan_eligibility_large_by_employment_april2025.png](loan_eligibility_large_by_employment_april2025.png)).
+  
+  - **Small Loan ($30,000-$100,000)**: Formal (~71% eligible), informal (~57%), self-employed (~50%), unemployed (~50%) ([loan_eligibility_small_by_employment_april2025](images/loan_eligibility_small_by_employment_april2025.png)).
+    
+  - **Medium Loan ($100,001-$500,000)**: Formal (~71%), self-employed (~44%), informal (~34%), unemployed (~30%) ([loan_eligibility_medium_by_employment_april2025](images/loan_eligibility_medium_by_employment_april2025.png)).
+    
+  - **Large Loan ($500,001-$2,230,000)**: Formal (~63%), self-employed (~33%), unemployed (~20%), informal (~14%) ([loan_eligibility_large_by_employment_april2025](images/loan_eligibility_large_by_employment_april2025.png)).
+    
 - **Correlations**:
   - Credit score and monthly income have strong positive correlations with eligibility (0.79 and 0.84 for small loans).
   - Current debt and debt-to-income ratio negatively impact approval (-0.51 and -0.23).
-  - Age and employment type have weak correlations (~0), indicating lesser relevance ([correlation_matrix_april2025.png](correlation_matrix_april2025.png)).
+  - Age and employment type have weak correlations (~0), indicating lesser relevance ([correlation_matrix_april2025.png](images/correlation_matrix_april2025.png)).
 - **Feature Importance**:
   - Credit score (0.51) and monthly income (0.19) are the most relevant factors for approval.
   - Employment type has minimal impact (<0.01) ([feature_importance.csv](feature_importance.csv)).
