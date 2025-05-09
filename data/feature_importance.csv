@@ -1,0 +1,34 @@
+Tipo_Prestamo,Caracteristica,Importancia
+Pequeño,Puntuación Crediticia,0.83
+Pequeño,Ingresos Mensuales,0.09
+Pequeño,Ratio Deuda Ingresos,0.02
+Pequeño,Deuda Actual,0.02
+Pequeño,Edad,0.01
+Pequeño,Monto Prestamo Solicitado,0.01
+Pequeño,Años Empleo,0.01
+Pequeño,Empleo Autónomo,0.0
+Pequeño,Empleo Formal,0.0
+Pequeño,Empleo Informal,0.0
+Pequeño,Empleo Desempleado,0.0
+Mediano,Puntuación Crediticia,0.51
+Mediano,Ratio Deuda Ingresos,0.2
+Mediano,Ingresos Mensuales,0.19
+Mediano,Deuda Actual,0.03
+Mediano,Monto Prestamo Solicitado,0.03
+Mediano,Años Empleo,0.02
+Mediano,Edad,0.02
+Mediano,Empleo Formal,0.01
+Mediano,Empleo Autónomo,0.0
+Mediano,Empleo Informal,0.0
+Mediano,Empleo Desempleado,0.0
+Elevado,Ingresos Mensuales,0.35
+Elevado,Puntuación Crediticia,0.3
+Elevado,Ratio Deuda Ingresos,0.15
+Elevado,Años Empleo,0.04
+Elevado,Monto Prestamo Solicitado,0.04
+Elevado,Edad,0.04
+Elevado,Deuda Actual,0.03
+Elevado,Empleo Formal,0.02
+Elevado,Empleo Informal,0.01
+Elevado,Empleo Autónomo,0.01
+Elevado,Empleo Desempleado,0.0
