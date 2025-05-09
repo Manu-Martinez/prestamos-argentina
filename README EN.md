@@ -37,7 +37,7 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
 ## Progress
 
 ### Dataset
-- 1,000 fictitious clients with incomes ($165,483-$2,787,500, Feb-Apr 2025 average), ~30% informal, ~20-30% eligible for loans ([clientes_ficticios_abril2025.csv](fictitious_clients_april2025.csv)).  
+- 1,000 fictitious clients with incomes ($165,483-$2,787,500, Feb-Apr 2025 average), ~30% informal, ~20-30% eligible for loans ([clientes_ficticios_abril2025.csv](clientes_ficticios_abril2025.csv)).  
 - **Adjusted eligibility criteria**:
   - **Small ($30,000-$100,000)**: Credit score >500, debt-to-income ratio <0.5, income >$300,000.  
   - **Medium ($100,001-$500,000)**: Credit score >600, debt-to-income ratio <0.4, income >$500,000.  
@@ -56,7 +56,7 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
 - **Correlations**:
   - Credit score and monthly income have strong positive correlations with eligibility (0.79 and 0.84 for small loans).
   - Current debt and debt-to-income ratio negatively impact approval (-0.51 and -0.23).
-  - Age and employment type have weak correlations (~0), indicating lesser relevance ([correlation_matrix_april2025.png](images/correlation_matrix_april2025.png)).
+  - Age and employment type have weak correlations (~0), indicating lesser relevance ([correlation_matrix_april2025](images/correlation_matrix_april2025.png)).
 - **Feature Importance**:
   - Credit score (0.51) and monthly income (0.19) are the most relevant factors for approval.
   - Employment type has minimal impact (<0.01) ([feature_importance.csv](feature_importance.csv)).
