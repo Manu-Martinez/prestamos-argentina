@@ -60,6 +60,7 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
   - Credit score and monthly income have strong positive correlations with eligibility (0.79 and 0.84 for small loans).
   - Current debt and debt-to-income ratio negatively impact approval (-0.51 and -0.23).
   - Age and employment type have weak correlations (~0), indicating lesser relevance.
+
     ![correlation_matrix_april2025](images/correlation_matrix_april2025.png)
     
 - **Feature Importance**:
