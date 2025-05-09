@@ -44,7 +44,7 @@ Determine which fictitious client profiles are eligible for small ($30,000-$100,
   - **Large ($500,001-$2,230,000)**: Credit score >700, debt-to-income ratio <0.3, income >$1,000,000.
 
 ### Exploration
-- **Income Distribution**: Most clients have incomes between $165,483 and $1,200,000, peaking at $400,000-$600,000, reflecting a market with a high proportion of low to moderate incomes ([income_distribution_april2025.png](images/income_distribution_april2025.png)).
+- **Income Distribution**: Most clients have incomes between $165,483 and $1,200,000, peaking at $400,000-$600,000, reflecting a market with a high proportion of low to moderate incomes ([income_distribution_april2025.png](images/income_distribution_feb_apr2025.png)).
 - **Eligibility by Employment Type**:
   
   - **Small Loan ($30,000-$100,000)**: Formal (~71% eligible), informal (~57%), self-employed (~50%), unemployed (~50%) ([loan_eligibility_small_by_employment_april2025](images/loan_eligibility_small_by_employment_april2025.png)).
