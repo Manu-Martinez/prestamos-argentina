@@ -67,9 +67,10 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
 
     
 - **Correlaciones**:
-  - Puntuación crediticia e ingresos mensuales tienen correlaciones positivas fuertes con la elegibilidad (0.79 y 0.84 para préstamo pequeño).
-  - Deuda actual y ratio deuda/ingresos afectan negativamente la aprobación (-0.51 y -0.23).
-  - Edad y tipo de empleo tienen correlaciones débiles (~0), indicando menor relevancia.
+  - La puntuación crediticia es la variable más asociada a la elegibilidad: correlación fuerte con préstamo pequeño (0.79), moderada-fuerte con mediano (0.60) y débil con elevado (0.27).
+  - Los ingresos mensuales tienen correlación débil con la elegibilidad para préstamos medianos (0.22) y elevados (0.28), y casi nula con pequeños (0.084).
+  - El ratio deuda/ingresos se asocia negativamente con la aprobación de préstamos medianos (-0.23) y, más levemente, elevados (-0.13).
+  - La deuda actual, la edad y los años de empleo tienen correlaciones cercanas a 0, por lo que muestran poca relación lineal con la elegibilidad.
     
     ![correlation_matrix_feb_apr2025.png](images/correlation_matrix_feb_apr2025.png)
 
@@ -99,7 +100,7 @@ Determinar qué perfiles de clientes ficticios son aptos para préstamos pequeñ
 
 ## Conclusiones
 - **Distribución de ingresos y contexto económico**: La mayoría de los clientes tienen ingresos mensuales entre $165,483 y $1,200,000 (promedio Feb-Abr 2025), con una minoría alcanzando hasta $2,787,500. La inflación de febrero a abril (2.5%-3.7%) y el aumento de la canasta básica (~$1,127,000) limitan la capacidad de endeudamiento, pero los criterios menos exigentes permiten mayor acceso a préstamos pequeños y medianos.
-- **Factores clave para la aprobación**: La puntuación crediticia (importancia 0.51) y los ingresos mensuales (0.19) son los principales determinantes de elegibilidad, según el análisis de importancia de características. La deuda actual y el ratio deuda/ingresos tienen un impacto negativo significativo (correlaciones de -0.51 y -0.23 con la aprobación), mientras que el tipo de empleo tiene una influencia mínima (importancia <0.01).
+- **Factores clave para la aprobación**: La puntuación crediticia (importancia 0.51) y los ingresos mensuales (0.19) son los principales determinantes de elegibilidad según el análisis de importancia de características. En la matriz de correlación, la puntuación crediticia es la más asociada (0.79 con préstamo pequeño y 0.60 con mediano). El ratio deuda/ingresos se asocia negativamente con la aprobación de préstamos medianos (-0.23), mientras que la deuda actual y los años de empleo muestran correlaciones cercanas a 0. 
 - **Elegibilidad por tipo de préstamo y empleo**:
   - **Préstamo Pequeño ($30,000-$100,000)**: ~20-30% de clientes son aptos, con los formales liderando (~71% aptos), seguidos por informales (~57%), autónomos (~50%) y desempleados (~50%). Los criterios flexibles (ingresos >$300,000, puntuación crediticia >500) hacen que este rango sea accesible para una amplia gama de clientes.
   - **Préstamo Mediano ($100,001-$500,000)**: La aprobación cae (~15-20% aptos), con los formales aún liderando (~71%), pero los informales (~34%), autónomos (~44%) y desempleados (~30%) enfrentan más restricciones debido a ingresos promedio más bajos ($450,000 para informales).
